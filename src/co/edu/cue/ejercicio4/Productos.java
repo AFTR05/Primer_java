@@ -1,4 +1,4 @@
-package ejercicio4;
+package co.edu.cue.ejercicio4;
 
 public class Productos {
     private String nombre;

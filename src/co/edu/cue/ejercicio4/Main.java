@@ -1,7 +1,6 @@
-package ejercicio4;
+package co.edu.cue.ejercicio4;
 
 import javax.swing.*;
-import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args){
@@ -144,7 +143,7 @@ public class Main {
         System.out.println("Producto 3: "+producto1_3.getNombre()+" Precio: "+ producto1_3.getPrecio()+"  Cantidad: "+ detallesproduct1_3.getCantidad()+ " Valor: "+ (detallesproduct1_3.getCantidad()*producto1_3.getPrecio()));
         System.out.println("Producto 4: "+producto1_4.getNombre()+" Precio: "+ producto1_4.getPrecio()+"  Cantidad: "+ detallesproduct1_4.getCantidad()+ " Valor: "+ (detallesproduct1_4.getCantidad()*producto1_4.getPrecio()));
         System.out.println("Producto 5: "+producto1_5.getNombre()+" Precio: "+ producto1_5.getPrecio()+"  Cantidad: "+ detallesproduct1_5.getCantidad()+ " Valor: "+ (detallesproduct1_5.getCantidad()*producto1_5.getPrecio()));
-
+        System.out.println("Valor total de la factura: "+((detallesproduct1_1.getCantidad()*producto1_1.getPrecio())+(detallesproduct1_2.getCantidad()*producto1_2.getPrecio())+(detallesproduct1_3.getCantidad()*producto1_3.getPrecio())+(detallesproduct1_4.getCantidad()*producto1_4.getPrecio())+(detallesproduct1_5.getCantidad()*producto1_5.getPrecio())));
         /*Impresion factura 2-----------------------------------------------------------------------------------------------------------------------------*/
         System.out.println("Factura 2----------------------------------------------------------------------------------------------------------------");
         System.out.println("Producto 1: "+producto2_1.getNombre()+" Precio: "+ producto2_1.getPrecio()+"  Cantidad: "+ detallesproduct2_1.getCantidad()+ " Valor: "+ (detallesproduct2_1.getCantidad()*producto2_1.getPrecio()));
@@ -152,7 +151,7 @@ public class Main {
         System.out.println("Producto 3: "+producto2_3.getNombre()+" Precio: "+ producto2_3.getPrecio()+"  Cantidad: "+ detallesproduct2_3.getCantidad()+ " Valor: "+ (detallesproduct2_3.getCantidad()*producto2_3.getPrecio()));
         System.out.println("Producto 4: "+producto2_4.getNombre()+" Precio: "+ producto2_4.getPrecio()+"  Cantidad: "+ detallesproduct2_4.getCantidad()+ " Valor: "+ (detallesproduct2_4.getCantidad()*producto2_4.getPrecio()));
         System.out.println("Producto 5: "+producto2_5.getNombre()+" Precio: "+ producto2_5.getPrecio()+"  Cantidad: "+ detallesproduct2_5.getCantidad()+ " Valor: "+ (detallesproduct2_5.getCantidad()*producto2_5.getPrecio()));
-
+        System.out.println("Valor total de la factura: "+((detallesproduct2_1.getCantidad()*producto2_1.getPrecio())+(detallesproduct2_2.getCantidad()*producto2_2.getPrecio())+(detallesproduct2_3.getCantidad()*producto2_3.getPrecio())+(detallesproduct2_4.getCantidad()*producto2_4.getPrecio())+(detallesproduct2_5.getCantidad()*producto2_5.getPrecio())));
         /*Impresion factura 3-----------------------------------------------------------------------------------------------------------------------------*/
         System.out.println("Factura 3----------------------------------------------------------------------------------------------------------------");
         System.out.println("Producto 1: "+producto3_1.getNombre()+" Precio: "+ producto3_1.getPrecio()+"  Cantidad: "+ detallesproduct3_1.getCantidad()+ " Valor: "+ (detallesproduct3_1.getCantidad()*producto3_1.getPrecio()));
@@ -160,7 +159,7 @@ public class Main {
         System.out.println("Producto 3: "+producto3_3.getNombre()+" Precio: "+ producto3_3.getPrecio()+"  Cantidad: "+ detallesproduct3_3.getCantidad()+ " Valor: "+ (detallesproduct3_3.getCantidad()*producto3_3.getPrecio()));
         System.out.println("Producto 4: "+producto3_4.getNombre()+" Precio: "+ producto3_4.getPrecio()+"  Cantidad: "+ detallesproduct3_4.getCantidad()+ " Valor: "+ (detallesproduct3_4.getCantidad()*producto3_4.getPrecio()));
         System.out.println("Producto 5: "+producto3_5.getNombre()+" Precio: "+ producto3_5.getPrecio()+"  Cantidad: "+ detallesproduct3_5.getCantidad()+ " Valor: "+ (detallesproduct3_5.getCantidad()*producto3_5.getPrecio()));
-
+        System.out.println("Valor total de la factura: "+((detallesproduct3_1.getCantidad()*producto3_1.getPrecio())+(detallesproduct3_2.getCantidad()*producto3_2.getPrecio())+(detallesproduct3_3.getCantidad()*producto3_3.getPrecio())+(detallesproduct3_4.getCantidad()*producto3_4.getPrecio())+(detallesproduct3_5.getCantidad()*producto3_5.getPrecio())));
         /*Impresion valor total---------------------------------------------------------------------------------------------------------------------------*/
         System.out.println("Total----------------------------------------------------------------------------------------------------------------");
         System.out.println("Valor total: "+((detallesproduct1_1.getCantidad()*producto1_1.getPrecio())+(detallesproduct1_2.getCantidad()*producto1_2.getPrecio())+(detallesproduct1_3.getCantidad()*producto1_3.getPrecio())+(detallesproduct1_4.getCantidad()*producto1_4.getPrecio())+(detallesproduct1_5.getCantidad()*producto1_5.getPrecio()))+((detallesproduct2_1.getCantidad()*producto2_1.getPrecio())+(detallesproduct2_2.getCantidad()*producto2_2.getPrecio())+(detallesproduct2_3.getCantidad()*producto2_3.getPrecio())+(detallesproduct2_4.getCantidad()*producto2_4.getPrecio())+(detallesproduct2_5.getCantidad()*producto2_5.getPrecio()))+((detallesproduct3_1.getCantidad()*producto3_1.getPrecio())+(detallesproduct3_2.getCantidad()*producto3_2.getPrecio())+(detallesproduct3_3.getCantidad()*producto3_3.getPrecio())+(detallesproduct3_4.getCantidad()*producto3_4.getPrecio())+(detallesproduct3_5.getCantidad()*producto3_5.getPrecio())));
