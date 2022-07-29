@@ -2,13 +2,13 @@ package co.edu.cue.agenda;
 
 public class Contacto {
     private String name;
-    private int number;
+    private double number;
 
     public String getName() {
         return name;
     }
 
-    public int getNumber() {
+    public double getNumber() {
         return number;
     }
 
@@ -20,7 +20,7 @@ public class Contacto {
         this.number = number;
     }
 
-    public Contacto(String name, int number) {
+    public Contacto(String name, double number) {
         this.name = name;
         this.number=number;
     }
