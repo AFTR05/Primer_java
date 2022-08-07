@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e3cdf2-ced8-4981-a5eb-0766d955cabb" name="Changes" comment="Terminado para clase">
-      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/aplication/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web/retoClase.java" afterDir="false" />
+    <list default="true" id="25e3cdf2-ced8-4981-a5eb-0766d955cabb" name="Changes" comment="Agendita">
+      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Funciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicioMatrices/aplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicioMatrices/aplication/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicioMatrices/model/Parte2y3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658616973219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Agendita">
+      <created>1659063719021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659063719021</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Terminado ejercicio 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado ejercicio 4" />
+    <MESSAGE value="Agendita" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agendita" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
